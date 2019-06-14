@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Quản lý bán hàng</title>
+    <link rel="stylesheet" href="css.css">
+</head>
+<body onload="show();">
+<center>
+    <header class="containerhead">
+        <h3>Add new Project</h3>
+        <form>
+            <input type="text" id="newProduct">
+            <input type="button" onclick="addNewProduct()" value="Add">
+        </form>
+    </header>
+    <div>
+        <p>Display All Product</p>
+        <table>
+            <thead>
+            <tr>
+                <td>Product Name</td>
+                <td id="amoutProduct"></td>
+            </tr>
+            </thead>
+            <tbody id="showProduct">
+
+            </tbody>
+        </table>
+    </div>
+    <div id="Edit" >
+
+    </div>
+    <script src="js.js"></script>
+</center>
+</body>
+</html>
